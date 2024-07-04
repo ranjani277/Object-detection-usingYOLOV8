@@ -9,7 +9,7 @@ from ultralytics import YOLO
 model = YOLO("weights/yolov8n.pt", "v8")
 
 # Load class names from coco.txt
-with open(r"C:\Users\Harsha\Desktop\FULL STACK DATA SCIENCE\YOLO\MY YOLO\coco.txt", "r") as my_file:
+with open(r"C:\Users\user\Desktop\FULL STACK DATA SCIENCE\YOLO\MY YOLO\coco.txt", "r") as my_file:
     class_list = my_file.read().split("\n")
 
 # Generate random colors for class list
